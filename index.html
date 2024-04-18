@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
     <title>2024 Summer</title>
       <link rel="canonical" href="https://getbootstrap.com/docs/5.0/components/list-group/">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
@@ -59,9 +60,17 @@
             </iframe>
             <br/>
             <a href="MyResume.html">Here is my Resume</a>
-        
-            
-            <br>
+        <br/>
+            <br/>
+            <h4>This is not my Tableau but I found this one online.</h4>
+            <br/>
+            <br/>
+            <tableau-viz id="tableauViz"       
+                src='https://public.tableau.com/views/Superstore_24/Overview'      
+                 height='600px' width='600px' toolbar='bottom' hide-tabs>
+            </tableau-viz>
+            <br/>
+            <br/>
           </P>
         </div>
         <div class="col"></div>
